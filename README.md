@@ -1,5 +1,7 @@
 # CookGPT
 
+[English README](README.en.md)
+
 一个给独居开发者用的一人食厨房 Skill。
 
 它会从可信菜谱里找方案，再按你的库存、厨具、口味、预算和时间，整理成一份能照着做的下厨计划。不是灵感菜单，也不是那种看完还是不知道先切葱还是先热锅的菜谱摘要。
@@ -255,7 +257,8 @@ CookGPT 有几条硬规则：
 │   ├── obsidian_recipes_index.json
 │   └── recipe_knowledge.jsonl
 ├── LICENSE
-└── README.md
+├── README.md
+└── README.en.md
 ```
 
 ## License
