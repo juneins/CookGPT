@@ -15,6 +15,10 @@
 - 可信来源：已引入原 `solo-kitchen` 的 trusted sources；其中待验证来源仍保留待验证标记。
 - 位置、买菜渠道、预算、忌口、厨具、常备调料：均为空白占位。
 
+## License
+
+MIT License. See `LICENSE`.
+
 ## 使用方式
 
 审核通过后，可把 `skill/` 作为新的 skill 初始版本，把 `user-data-template/` 中的文件复制到：
