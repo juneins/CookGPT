@@ -1,0 +1,15 @@
+.DS_Store
+*.log
+
+# Local/private runtime data should stay outside this repo.
+.codex/
+user-data/
+user-data-local/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Editor/system files
+.idea/
+.vscode/

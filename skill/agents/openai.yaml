@@ -1,0 +1,7 @@
+interface:
+  display_name: "Solo Kitchen"
+  short_description: "信源一人食、库存和 Obsidian 操作手册"
+  default_prompt: "Use $solo-kitchen to recommend a source-backed one-person meal from my inventory and format it as an operational cooking plan."
+
+policy:
+  allow_implicit_invocation: true

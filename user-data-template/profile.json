@@ -1,0 +1,53 @@
+{
+  "version": 1,
+  "default_serving": {
+    "people": 1,
+    "meals": 1,
+    "serving_overrides": []
+  },
+  "location": {
+    "country_or_region": "",
+    "city": "",
+    "district_or_area": ""
+  },
+  "shopping_channels": [],
+  "budget": {
+    "default_per_meal": "",
+    "currency": ""
+  },
+  "dietary_constraints": {
+    "allergies": [],
+    "medical_or_religious_restrictions": [],
+    "ingredients_to_avoid": []
+  },
+  "taste_preferences": {
+    "liked_cuisines_or_flavors": [],
+    "disliked_cuisines_or_flavors": [],
+    "spice_level": ""
+  },
+  "cooking_setup": {
+    "available_equipment": [],
+    "staple_seasonings": []
+  },
+  "time_and_effort": {
+    "usual_max_minutes": "",
+    "complexity_preference": "",
+    "cleanup_tolerance": ""
+  },
+  "initial_inventory_policy": "start_empty",
+  "optional": {
+    "body_profile": {
+      "sex": "",
+      "age": "",
+      "height_cm": "",
+      "weight_kg": "",
+      "body_context": ""
+    },
+    "nutrition_goals": [],
+    "meal_times": [],
+    "preferred_protein_sources": [],
+    "preferred_carb_sources": [],
+    "food_texture_preferences": [],
+    "notes": ""
+  }
+}

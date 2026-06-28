@@ -1,0 +1,133 @@
+{
+  "version": 1,
+  "source_policy": {
+    "default_recommendation_mode": "source_backed_only",
+    "forbid_model_generated_recipes": true,
+    "use_trusted_sources_for_every_recommendation": true,
+    "excluded_sources": [
+      {
+        "name": "下厨房",
+        "url_pattern": "xiachufang.com",
+        "reason": "用户明确表示不信任该网站，不再作为菜谱来源"
+      }
+    ],
+    "fallback_when_no_source_match": "ask_to_broaden_sources_or_change_ingredients",
+    "require_citations_when_using_web": true,
+    "verify_urls_before_citing": true,
+    "retrieval_priority": [
+      "recipe_knowledge",
+      "local_obsidian_recipes",
+      "creator_repost_or_transcript_page",
+      "youtube_subtitles_with_ytdlp",
+      "structured_recipe_page",
+      "stop_if_incomplete"
+    ]
+  },
+  "sources": [
+    {
+      "name": "小高姐",
+      "platform": "YouTube",
+      "language": "zh-CN",
+      "url": "https://www.youtube.com/@MagicIngredients",
+      "trust_level": "primary",
+      "cuisine_or_style": [
+        "中餐",
+        "家常菜"
+      ],
+      "notes": "用户预设可信创作者；2026-06-21 已核验为官方 YouTube 频道"
+    },
+    {
+      "name": "老东北美食",
+      "platform": "YouTube",
+      "language": "zh-CN",
+      "url": "https://www.youtube.com/@laodongbeimeishi",
+      "trust_level": "primary",
+      "cuisine_or_style": [
+        "东北菜",
+        "中餐",
+        "家常菜",
+        "面食"
+      ],
+      "notes": "用户要求加入参考库；2026-06-21 已通过频道视频元数据核验为老东北美食唯一官方频道"
+    },
+    {
+      "name": "George ジョージ",
+      "platform": "YouTube",
+      "language": "ja-JP",
+      "url": "https://www.youtube.com/@GeorgeLABO",
+      "trust_level": "primary",
+      "cuisine_or_style": [
+        "日料",
+        "西餐",
+        "家庭料理"
+      ],
+      "notes": "用户预设可信创作者"
+    },
+    {
+      "name": "ファビオ飯",
+      "platform": "YouTube",
+      "language": "ja-JP",
+      "url": "https://www.youtube.com/@ChefRopia",
+      "trust_level": "primary",
+      "cuisine_or_style": [
+        "意大利菜",
+        "西餐"
+      ],
+      "notes": "用户预设可信创作者"
+    },
+    {
+      "name": "まかないチャレンジ",
+      "platform": "YouTube",
+      "language": "ja-JP",
+      "url": "https://www.youtube.com/@makanai-challenge",
+      "trust_level": "primary",
+      "cuisine_or_style": [
+        "中餐",
+        "日料",
+        "家庭料理"
+      ],
+      "notes": "用户预设可信创作者"
+    },
+    {
+      "name": "YUGETUBE",
+      "platform": "YouTube",
+      "language": "ja-JP",
+      "url": "https://www.youtube.com/@YUGETUBE",
+      "trust_level": "primary",
+      "cuisine_or_style": [
+        "意大利菜",
+        "日料",
+        "西餐"
+      ],
+      "notes": "用户预设可信创作者；本地已有 YUGETUBE 番茄酱意面 manual"
+    },
+    {
+      "name": "詹姆士官方專屬頻道",
+      "platform": "YouTube",
+      "language": "zh-TW",
+      "url": "https://www.youtube.com/@chef_james_tw",
+      "trust_level": "primary",
+      "cuisine_or_style": [
+        "中餐",
+        "台式料理",
+        "家庭料理",
+        "快手菜"
+      ],
+      "notes": "用户要求检索该频道食谱；优先用于詹姆士/姆士流相关菜谱，但仍需验证具体视频或文字食谱包含目标食材和步骤"
+    },
+    {
+      "name": "Martine Cuisine",
+      "platform": "待验证",
+      "language": "fr-FR",
+      "url": "",
+      "handle": "@martinecuisine",
+      "trust_level": "primary_pending_verification",
+      "cuisine_or_style": [
+        "法国家常",
+        "欧式家庭料理",
+        "简易食谱"
+      ],
+      "notes": "用户要求加入库中；YouTube @martinecuisine 经 yt-dlp 检查为 404。搜索结果存在 TATIE MARTINE CUISINE、Facebook MartineCuisine60、Instagram Martine Cuisine 等相近来源。后续引用前必须用具体链接验证账号和菜谱内容。"
+    }
+  ]
+}

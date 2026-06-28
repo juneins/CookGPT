@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "vault_path": "",
+  "primary_recipe_dir": "",
+  "recipe_dirs": [],
+  "index_path": "",
+  "sync_policy": {
+    "refresh_before_recommendation": true,
+    "read_original_note_for_manual": true,
+    "write_back_requires_explicit_user_request": true
+  },
+  "notes": ""
+}
